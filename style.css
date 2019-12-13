@@ -1,0 +1,62 @@
+#mainlogo {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topbar {
+    color:black;
+}
+
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+textarea {
+    position: absolute;
+    top: 410px;
+    left: 500px;
+}
+
+table {
+    margin-top: 425px;
+    margin-left: 500px;
+}
+
+td {
+    background-color: #ccc;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+    color: white;
+}
